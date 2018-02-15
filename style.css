@@ -1,20 +1,28 @@
+html{
+    background-color: black;
+}
+
 body{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 18px;
+    margin: 16px auto;
     width: 960px;
+    height: 640px;
     background: #777;
     color: #ebebeb;
     border: 0px;
-    padding: 0px;
+    padding: 20px;
 }
 
+.classHeader, .classNav, .classFooter, .classAside, .classNav{
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .classHeader {
-    margin-left: 80px;
-    margin-right: 80px;
-    margin-top: 10px;
+    margin-top: 0px;
     border: 0px;
-    padding: 0px;
+    padding: 0;
     width: 720px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -24,8 +32,9 @@ body{
 }
 
 .classNav {
-    margin-left: 80px;
+    margin-left: 120px;
     margin-top: 10px;
+    margin-bottom: 20px;
     border: 0px;
     padding: 0px;
     width: 720px;
@@ -38,9 +47,10 @@ body{
 
 
 .classSection{
-    margin-left: 80px;
+    float: left;
+    margin-left: 120px;
     border: 0px;
-    padding: 0px;
+    padding: 0px 0px 10px 0px;
     width: 495px;
     color: #777;
     background: #ebebeb;
@@ -48,32 +58,51 @@ body{
 }
 
 .classHs{
-    margin: 0px;
+    margin: 0px 15px;
     border: 0px;
     padding: 0px;
     color: #777;
     background: #ebebeb;
+    width: auto;
     text-align: center;
 }
 .classP{
-    margin: 0px;
+    margin: 0px 15px;
     border: 0px;
-    padding: 0px;
+    padding: 0px 0px 1px 0px;
     color: #777;
     background: #ebebeb;
     text-align: center;
 }
+
 .classAside{
-    margin-left: 80px;
+    float: left;
+    margin-left: 20px;
     border: 0px;
     padding: 0px;
-    width: 720px;
+    width: 205px;
+    height: 225px;
     color: #777;
     background: #ebebeb;
     text-align: center;
 }
+
+.classAside::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.classClear::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
 .classFooter{
-    margin-left: 80px;
+    float: left;
+    margin-left: 120px;
+    margin-top: 15px;
     border: 0px;
     padding: 0px;
     width: 720px;
@@ -82,9 +111,9 @@ body{
     text-align: center;
 }
 .classArticle{
-    margin: 0px;
+    margin: 20px 20px 0px 20px;
     border: 0px;
-    padding: 0px;
+    padding: 10px 0px;
     color: #ebebeb;
     background: #777;
     text-align: center;

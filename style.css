@@ -1,0 +1,91 @@
+body{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    width: 960px;
+    background: #777;
+    color: #ebebeb;
+    border: 0px;
+    padding: 0px;
+}
+
+
+.classHeader {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 10px;
+    border: 0px;
+    padding: 0px;
+    width: 720px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #777;
+    background: #ebebeb;
+    text-align: center;
+}
+
+.classNav {
+    margin-left: 80px;
+    margin-top: 10px;
+    border: 0px;
+    padding: 0px;
+    width: 720px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #777;
+    background: #ebebeb;
+    text-align: center;
+}
+
+
+.classSection{
+    margin-left: 80px;
+    border: 0px;
+    padding: 0px;
+    width: 495px;
+    color: #777;
+    background: #ebebeb;
+    text-align: center;
+}
+
+.classHs{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    color: #777;
+    background: #ebebeb;
+    text-align: center;
+}
+.classP{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    color: #777;
+    background: #ebebeb;
+    text-align: center;
+}
+.classAside{
+    margin-left: 80px;
+    border: 0px;
+    padding: 0px;
+    width: 720px;
+    color: #777;
+    background: #ebebeb;
+    text-align: center;
+}
+.classFooter{
+    margin-left: 80px;
+    border: 0px;
+    padding: 0px;
+    width: 720px;
+    color: #777;
+    background: #ebebeb;
+    text-align: center;
+}
+.classArticle{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    color: #ebebeb;
+    background: #777;
+    text-align: center;
+}
